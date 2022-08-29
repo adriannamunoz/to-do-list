@@ -209,4 +209,13 @@ form {
             transform: scaleX(1);
     -webkit-transform-origin: left;
             transform-origin: left;
-  }
+}
+.delete-stuff {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -35px;
+    color: var(--clr-light);
+}
