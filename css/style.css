@@ -1,6 +1,12 @@
+*,
+*::before,
+*::after {
+  font-family: inherit;
+  box-sizing: border-box;
+}
 body {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    background-color: rgb(40, 40, 40);
+    color: rgb(0, 0, 0);
     font-family: Andale Mono, monospace;
     font-weight: 300;
     font-size: 1.5rem;
@@ -111,8 +117,8 @@ form {
 .todo-list {
     --spacer: 2rem;
     grid-area: active;
-    background: var(--clr-light);
-    color: var(--clr-dark);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .todo-header {
     background: #e4e4e4;
