@@ -143,14 +143,17 @@ form {
     display: flex-inline;
     align-items: center;
     position: relative;
+}
+.task {
+    position: relative;
     margin-bottom: 1.25em;
 }
-.task label::after {
+.task::after {
     content: "";
     position: absolute;
     right: 0;
     left: 0;
-    bottom: -50%;
+    bottom: -0.5;
     height: 1px;
     background: currentColor;
     opacity: 0.1;
@@ -164,8 +167,11 @@ form {
     cursor: pointer
     border: 2px solid currentColor;
     border-radius: 50%;
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    transition: -webkit-transform 300ms ease-in-out;
     transition: transform 300ms ease-in-out;
+    transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
 }
 .task:hover .custom-checkbox {
     transform: scale(1.1);
