@@ -183,7 +183,7 @@ form {
 [type="checkbox"]:focus + label .custom-checkbox {
     -webkit-transform: scale(1.2);
             transform: scale(1.1);
-    color: var(--clr-primary);
+    color: rgb(65, 61, 65);
 }
 [type="checkbox"]:checked + label .custom-checkbox {
     background: var(--clr-primary);
@@ -223,5 +223,5 @@ form {
     width: 100%;
     left: 0;
     bottom: -35px;
-    color: var(--clr-light);
+    color: rgb(0, 0, 0);
 }
