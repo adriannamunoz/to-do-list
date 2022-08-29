@@ -57,6 +57,8 @@ form {
     border-bottom: 1px solid currentColor;
     color: inherit;
     font-size: inherit;
+    outline: none;
+    order: 2;
 }
 .new.list {
     font-size: 1.1rem;
