@@ -1,4 +1,4 @@
-const listsContainer = document.querySelector('data-lists')
+const listsContainer = document.querySelector('[data-lists]')
 
 let lists = [{
     id: 1,
